@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* nav items start */
+.nav-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: #575757;
+    
+}
+
+
+.common_btn{
+    background-color: #1D4ED8;
+    color: #FFFFFF; 
+    border: 0;
+    padding: 15px 55px;  
+    border-radius: 10px; 
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/* nav items end */
+
+
+
+/* banner starts here */
+.banner{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.6)), 
+        url('./assets/banner.jpg');
+    height: 600px;
+}
+
+.banner h1{
+    padding-top: 100px;
+}
+
+.banner h1{
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 70px;
+    
+}
+
+.banner p{
+    color:#ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.banner-btn{
+    margin-top: 200px;
+
+}
+
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* banner ends here */
+
+
+
+
+
+
+/* main section starts here */
+h2{
+    margin-bottom: 40px;
+}
+/* card */
+.speakers-headline{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+
+.card-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; 
+   
+}
+
+
+.card{
+    border: 1px solid #E5E7EB;
+    
+}
+
+.card-details{
+    padding: 20px;
+}
+
+.card span{
+    color: #2563EB;
+    font-size: 10px;
+}
+
+.card h2{
+    padding: 10px 0;
+}
+
+
+.card p{
+    color: #575757;
+}
+
+
+
+
+
+
+
+
+
+
+/* main section ends here */
