@@ -96,7 +96,7 @@ body{
 
 
 /* main section starts here */
-h2{
+main > h2{
     margin-bottom: 40px;
 }
 /* card */
@@ -122,7 +122,7 @@ h2{
 }
 
 .card-details{
-    padding: 20px;
+   padding: 20px;
 }
 
 .card span{
@@ -131,7 +131,7 @@ h2{
 }
 
 .card h2{
-    padding: 10px 0;
+    padding: 10px 0px;
 }
 
 
