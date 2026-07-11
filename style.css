@@ -96,10 +96,14 @@ body{
 
 
 /* main section starts here */
-main > h2{
+.speaker > h2{
     margin-bottom: 40px;
 }
 /* card */
+.speaker{
+    padding: 0 90px;
+}
+
 .speakers-headline{
     text-align: center;
     margin-top: 70px;
@@ -118,7 +122,13 @@ main > h2{
 
 .card{
     border: 1px solid #E5E7EB;
+    overflow: hidden;
     
+}
+
+.card img{
+    width: 100%;
+    display: block;
 }
 
 .card-details{
@@ -135,17 +145,126 @@ main > h2{
 }
 
 
-.card p{
+.common-color{
     color: #575757;
 }
 
 
 
 
+/* secure your spot section */
+.secure-spot{
+    margin-top: 130px;
+}
+
+.spot-headline{
+    text-align: center;
+}
+
+.secure-spot h2{
+    font-size: 2.5rem;
+}
+
+.secure-spot p{
+    font-size: 15px;
+}
+
+.spot-card-parent{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
+.spot-card-item{
+    border: 1px solid #575757;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #E5E7EB;
+    border-radius: 18px;
+}
+
+.spot-card-item h2{
+    font-size: 50px;
+}
+
+.spot-card-item ul{
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+
+.spot-card-item ul > li{
+    padding: 5px 0px;
+    font-weight: 300;
+}
 
 
 
+li::marker {
+  color: #1D4ED8;
+}
 
+#btn-1{
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1D4ED8;
+    background-color: #FFFFFF;
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+    margin-top: 1.2rem;
+}
+
+
+/* pro-card */
+.pro-card{
+    background-color: #0D1B2A;
+    color: #E5E7EB;
+}
+
+.pro-color{
+    color: #93C5FD;
+}
+
+.pro-color-2{
+    color: gray;
+}
+
+
+
+#btn-2{
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #2563EB;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1.2rem;
+}
+
+/* third card */
+.third-spot-card{
+    background-color: #F8F9FB;
+}
+
+#btn-3{
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333333;
+    background-color: #F8F9FB;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin-top: 1.2rem;
+}
 
 
 /* main section ends here */
