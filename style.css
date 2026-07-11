@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -50,18 +51,19 @@ body {
 
 .banner h1 {
   padding-top: 100px;
-}
-
-.banner h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 70px;
+  margin: 15px;
+
 }
 
+
 .banner p {
-  color: #ffffff;
+  color: #e5e7eb;
   font-size: 20px;
-  padding-top: 20px;
+  text-align: center;
+  padding: 0px 150px;
 }
 
 .banner-btn {
@@ -114,7 +116,8 @@ body {
 
 .card span {
   color: #2563eb;
-  font-size: 10px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .card h2 {
@@ -122,7 +125,7 @@ body {
 }
 
 .common-color {
-  color: #575757;
+  color: #888888;
 }
 
 /* secure your spot section */
@@ -135,7 +138,11 @@ body {
 }
 
 .secure-spot h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.spot-card-item p{
+    margin-bottom: 5px;
 }
 
 .secure-spot p {
@@ -151,7 +158,6 @@ body {
 }
 
 .spot-card-item {
-  border: 1px solid #575757;
   padding: 20px;
   width: 300px;
   border: 1px solid #e5e7eb;
@@ -162,6 +168,9 @@ body {
   font-size: 50px;
 }
 
+.spot-card-item p{
+    font-size: 13px;
+}
 .spot-card-item ul {
   padding-left: 10px;
   margin-top: 30px;
@@ -237,23 +246,21 @@ li::marker {
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
-  
 }
 
-.track-btn-1 button{
-    background-color: #f0f2f6;
-    padding: 20px 35px;
-    border: 0;
-    color: #1d4ed8;
-    font-weight: 700;
-    font-size: 1rem;
-    border-radius: 30px;
-    margin-bottom: 20px;
+.track-btn-1 button {
+  background-color: #f0f2f6;
+  padding: 20px 35px;
+  border: 0;
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 30px;
+  margin-bottom: 20px;
 }
-.special-icon{
-    padding-right: 30px;
+.special-icon {
+  padding-right: 30px;
 }
-
 
 .track-content {
   font-size: 2.5rem;
@@ -285,10 +292,6 @@ li::marker {
   margin-bottom: 1rem;
 }
 
-.track-icon {
-  display: block;
-  text-align: center;
-}
 
 .track-btn {
   display: flex;
@@ -307,52 +310,45 @@ li::marker {
   border-radius: 15px;
 }
 
-.track-lower{
-    margin-top: 30px;
-    text-align: center;
-    font-size: 1rem;
+.track-lower {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1rem;
 }
 
-.track-lower-icon{
-    color: #1d4ed8;
-    margin-right: 10px;
+.track-lower-icon {
+  color: #1d4ed8;
+  margin-right: 10px;
 }
 
 /* main section ends here */
 
-
-
-
 /* footer */
-footer{
-    background-color: #0d1b2a;
-    padding: 60px;
-    margin-top: 100px;
-
+footer {
+  background-color: #0d1b2a;
+  padding: 60px;
+  margin-top: 100px;
 }
-.footer-top{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-   
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 
-.footer-icons{
-    color: #f0f2f6;
-    font-size: 30px;
-    display: flex;
-    gap: 30px;
-    
+.footer-icons {
+  color: #f0f2f6;
+  font-size: 30px;
+  display: flex;
+  gap: 30px;
 }
 
-
-.footer-bottom{
-    display: flex;
-    justify-content: space-between;
-    color: #f0f2f6;
-    padding-top: 20px;
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #f0f2f6;
+  padding-top: 20px;
 }
 
-.footer-text{
-    padding-right: 30px;
+.footer-text {
+  padding-right: 30px;
 }
